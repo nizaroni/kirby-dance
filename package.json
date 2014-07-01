@@ -1,0 +1,22 @@
+{
+  "name": "kirby-dance",
+  "version": "0.0.0",
+  "description": "<('.'<) (>'.')> <('.'<) (>'.')>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khalifenizar/kirby-dance.git"
+  },
+  "keywords": [
+    "kirby",
+    "dance",
+    "kirbies",
+    "dancing"
+  ],
+  "author": "Nizar Khalife Iglesas <khalifenizar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalifenizar/kirby-dance/issues"
+  },
+  "homepage": "https://github.com/khalifenizar/kirby-dance"
+}
