@@ -10,8 +10,14 @@ function kirbyDance (amount) {
     ;
 
     dance = [];
+    ind = 0;
 
-    for (ind = 0; ind < amount; ind += 1) {
+    if (amount < 0) {
+        ind = 1;
+        amount = -amount + 1;
+    }
+
+    for (; ind < amount; ind += 1) {
         var mod = ind % totalKirbies;
         dance.push(kirbies[mod]);
     }
