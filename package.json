@@ -1,7 +1,7 @@
 {
   "name": "kirby-dance",
   "description": "<('.'<) (>'.')> <('.'<) (>'.')>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Nizar Khalife Iglesas <khalifenizar@gmail.com>",
   "bugs": {
     "url": "https://github.com/khalifenizar/kirby-dance/issues"
