@@ -40,4 +40,16 @@ tape('kirby-dance', function (t) {
         t.error(error);
         t.end();
     });
+
+    t.test('reverses dance with negative numbers', function (t) {
+        dance = kirbyDance(-4);
+        t.equal(dance, "(>'.')> <('.'<) (>'.')> <('.'<)");
+
+        dance = kirbyDance(-7);
+        t.equal(dance, "(>'.')> <('.'<) (>'.')> <('.'<) (>'.')> <('.'<) (>'.')>");
+
+        dance = kirbyDance(-12);
+        t.equal(dance, "(>'.')> <('.'<) (>'.')> <('.'<) (>'.')> <('.'<) (>'.')> <('.'<) (>'.')> <('.'<) (>'.')> <('.'<)");
+        t.end();
+    });
 })
